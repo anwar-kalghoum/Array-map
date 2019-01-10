@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import forEach from './example/ForEach'
+import Filtre from './example/Filtre'
+import Indexof from './example/Indexoff'
+import MapF from './example/MapFun'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {forEach()}
+         {Filtre()}
+         {Indexof()}
+         {MapF()}
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
